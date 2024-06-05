@@ -1,0 +1,39 @@
+h1,h2,h3{
+    font-family: "Poetsen One", sans-serif;
+}
+h1{
+    color: #f8f9fA;
+    font-size: 26px;
+}
+h2{
+    font-size: 24px;
+}
+i,h3{
+    font-size: 22px;
+}
+p, li{
+    font-size: 14px;
+}
+header{
+    height: 96px;
+    background-color: #212529;
+    color: #EE9B00;
+}
+header section,
+header section nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header section nav ul li{
+    list-style: none;
+}
+header section nav ul li:hover{
+    font-size: 16px;
+}
+span{
+    display: flex;
+}
+main{
+    background-color: #343A40;
+}
