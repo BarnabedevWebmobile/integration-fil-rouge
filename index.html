@@ -13,21 +13,32 @@
 </head>
 <body>
     <header>
-        <section class="container align-self-center">
-            <span class="col-6"><i class="fa-solid fa-star"></i><h3>wards DWWM</h3></span>
-            <nav class="col-6">
-                <ul>
-                    <li>présentation</li>
-                    <li>inscription</li>
-                    <li>les nominés</li>
+        <div class="container d-flex flex-wrap justify-content-between py-3 mb-4">
+            <a href="" class="d-flex align-items-center justify-between mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <i class="fa-solid fa-star bi "></i><h3 class="">WARDS DWWM</h3>
+            </a>
+            <ul class="nav nav-pills d-none d-md-flex">
+                <li class="nav-item"><a href="#presentation" class="nav-link yellow">presentation</a></li>
+                <li class="nav-item"><a href="#inscription" class="nav-link yellow">inscription</a></li>
+                <li class="nav-item"><a href="#nomines" class="nav-link yellow">les nominés</a></li>
+            </ul>
+            <div class="dropdown d-md-none">
+                <button class="btn btn-yellow dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  présentation
+                </button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#presentation" class="nav-link yellow">presentation</a></li>
+                    <li class="dropdown-item"><a href="#inscription" class="nav-link yellow">inscription</a></li>
+                    <li class="dropdown-item"><a href="#nomines" class="nav-link yellow">les nominés</a></li>
                 </ul>
-            </nav>
-        </section>
+            </div>
+        </div>
     </header>
-    <main>
-        <section class="container presentation">
-            <h2>Le grand tournoi DWWM</h2>
-            <p>La promotion de développeur web se réunit le XX Juin 2024 (soirée de fin d’année 🡺
+    <main class="mt-5">
+        <section class="container d-flex flex-column justify-content-center presentation py-5" id="presentation">
+            <h1 class="text-center mb-5 yellow">Le grand tournoi DWWM</h1>
+            <h2 class="text-center my-3 yellow">bienvenue à la cérémonie des awards de la promotion DWWM</h2>
+            <p class="text-center">La promotion de développeur web se réunit le XX Juin 2024 (soirée de fin d’année 🡺
                 20/06 ?) pour célébrer les talents et les réalisations exceptionnels de ses membres.
                 Cette cérémonie de remise de trophées est l’occasion de reconnaître l’engagement, la passion et la
                 créativité tout au long de l’année et le parcours accomplit par les étudiants dans le domaine du
@@ -35,20 +46,147 @@
                 Au-delà des compétences techniques, l’esprit de collaboration, d’innovation et de résilience a été
                 cultivé.
             </p><br>
-            <p>Les étudiants qui se sont distingués seront honorés de leurs contributions variées dans la
+            <p class="text-center">Les étudiants qui se sont distingués seront honorés de leurs contributions variées dans la
                 participation aux différents projets et l’enrichissement de la promotion.
                 Le processus de vote souligne l’esprit de communauté et la diversité des talents au sein de la
                 cohorte.
             </p>
-            <p>
+            <p class="text-center">
                 Cette cérémonie est un témoignage du rôle transformateur de la technologie et de la capacité
                 collective à influencer l’avenir à travers le développement web. Elle vise à encourager la poursuite
                 de l’innovation et de la passion pour le codage.
             </p>
+            <button class="btn my-3 btn-yellow">je vote</button>
+            <img src="images/IMG20231207141119.jpg" alt="" class="nominates img-fluid my-5">
+        </section>
+        <section class="container my-5">
+            <h3 class="text-center my-4">la remise des titres se déroule dans :</h3>
+            <h2 class="text-center py-4">210h 25mn 31s</h2>
+        </section>
+        <section class="container py-5" id="nomines">
+            <h2 class="text-center my-4 yellow">Les apprenants nominés sont :</h2>
+            <div class="d-flex justify-content-around flex-wrap">
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/agustin.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Agustin</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/annaelle.png" class="card-img-top" alt="images/Apprenants/">
+                    <div class="card-body">
+                      <h5 class="card-title">Annaelle</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/barnabe.png" class="card-img-top" alt="images/Apprenants/">
+                    <div class="card-body">
+                      <h5 class="card-title">Barnabé</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/Christophe.png" class="card-img-top" alt="images/Apprenants/">
+                    <div class="card-body">
+                      <h5 class="card-title">Christophe</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/cyril.png" class="card-img-top" alt="images/Apprenants/">
+                    <div class="card-body">
+                      <h5 class="card-title">Cyril</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/kilian.png" class="card-img-top" alt="images/Apprenants/">
+                    <div class="card-body">
+                      <h5 class="card-title">Kilian</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/martin.png" class="card-img-top" alt="images/Apprenants/">
+                    <div class="card-body">
+                      <h5 class="card-title">Martin</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/Noé.png" class="card-img-top" alt="images/Apprenants/">
+                    <div class="card-body">
+                      <h5 class="card-title">Noé</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/stephane.png" class="card-img-top" alt="images/">
+                    <div class="card-body">
+                      <h5 class="card-title">Stéphane</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Apprenants/vincent.png" class="card-img-top" alt="images/">
+                    <div class="card-body">
+                      <h5 class="card-title">Vincent</h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <h2 class="text-center my-4 yellow">Les formateurs nominés sont :</h2>
+            <div class="d-flex justify-content-around flex-wrap">
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Formateurs/cedric.png" class="card-img-top" alt="images/">
+                    <div class="card-body">
+                      <h5 class="card-title">Cédric</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Formateurs/Christophe.png" class="card-img-top" alt="images/">
+                    <div class="card-body">
+                      <h5 class="card-title">Christophe</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Formateurs/laetitia.png" class="card-img-top" alt="images/">
+                    <div class="card-body">
+                      <h5 class="card-title">Laetitia</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Formateurs/luc.png" class="card-img-top" alt="images/">
+                    <div class="card-body">
+                      <h5 class="card-title">Luc</h5>
+                    </div>
+                </div>
+                <div class="card mx-3 mb-3" style="width: 12rem;">
+                    <img src="images/Formateurs/tony.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tony</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="inscription">
+            <h2 class="yellow text-center">Je m'inscris</h2>
+            <form class="row g-3 py-3 m-auto">
+                <div class="col-md-6">
+                  <label for="inputSubName" class="form-label">prenom</label>
+                  <input type="text" class="form-control" id="inputSubName">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputName" class="form-label">nom</label>
+                  <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Mail</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="olibrius@yahoo.fr">
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                  <button type="submit" class="btn btn-yellow">je m'inscris</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
-
+        <h3 class="text-center">berta@bretzeldesign</h3>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
